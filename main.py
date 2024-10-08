@@ -5,7 +5,8 @@ import os
 
 os.makedirs("subtitles")
 
-opensubtitleLink = "https://www.opensubtitles.org/en/ssearch/sublanguageid-fre/idmovie-2968"
+# opensubtitleLink = "https://www.opensubtitles.org/en/ssearch/sublanguageid-fre/idmovie-2968"
+opensubtitleLink = input("opensubtitles.org link: ")
 domain = urlparse(opensubtitleLink).netloc
 
 
